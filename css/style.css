@@ -1,0 +1,2837 @@
+
+@font-face{
+  font-family: 'ChampagneLimousinesBold';
+  src:url(../fonts/ChampagneLimousinesBold.ttf);
+}
+
+@font-face{
+  font-family: 'Champagne_Limousines';
+  src:url(../fonts/Champagne_Limousines.ttf);
+}
+
+
+
+/* =========== Typography ========== */
+body {
+  margin: 0px;
+  margin-top: 0px;
+  padding: 0px;
+font-family: 'Roboto', sans-serif;
+
+  /*color: #262c60;*/
+  overflow-x: hidden;     
+}
+/* ======DEFAULT BROWSER STYLE========= */
+
+a:focus{
+  text-decoration: none;
+}
+a:focus,.btn:focus,.btn:active:focus,
+button:focus,input[type="file"]:focus, 
+input[type="radio"]:focus, 
+input[type="checkbox"]:focus{
+  outline: none;
+}
+
+/* =========== SPACE CLASSES=========== */
+
+.space5{margin-top: 5px !important;}
+.space10{margin-top: 10px !important;}
+.space15{margin-top: 15px !important;}
+.space20{margin-top: 20px !important;}
+.space25{margin-top: 25px !important;}
+.space30{margin-top: 30px !important;}
+.space40{margin-top: 40px !important;}
+.space50{margin-top: 50px !important;}
+.space60{margin-top: 60px !important;}
+.space70{margin-top: 70px !important;}
+.space80{margin-top: 80px !important;}
+.space90{margin-top: 90px !important;}
+.space100{margin-top: 100px !important;}
+.space260{margin-top: 260px !important;}
+.space225 {margin-top: 225px !important;}
+.pad0{padding: 0;}
+.m0{margin: 0;}
+.f300{
+  font-weight:300;
+}
+.f400{
+  font-weight:400;    
+}
+.f500{
+  font-weight:500;
+}
+.f700{
+  font-weight:700;
+}
+.f800{
+  font-weight: 800;
+}
+.f900{
+  font-weight: 900;
+}
+.pad20{
+  padding: 20px 20px 20px 20px;
+}
+/*.padleft{
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-right: 0;
+}*/
+.padryt{
+  padding-right: 0;
+}
+.padlft{
+  padding-left: 0;
+}
+.padleft10{
+  padding-left: 10px;
+}
+.padright10{
+  padding-right: 10px;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/*============ placeholder =============*/
+
+.form-control::-webkit-input-placeholder {
+  color: #808080;
+}
+.form-control::-moz-placeholder {
+  color: #808080;
+}
+.form-control:-ms-input-placeholder {
+  color: #808080;
+}
+.form-control:-moz-placeholder {
+  color: #808080;
+}
+
+/*============ placeholder =============*/
+
+.form-control::-webkit-input-placeholder {
+  color: #808080;
+}
+.form-control::-moz-placeholder {
+  color: #808080;
+}
+.form-control:-ms-input-placeholder {
+  color: #808080;
+}
+.form-control:-moz-placeholder {
+  color: #808080;
+}
+
+/*====================account_profile===================================================*/
+
+/*header*/
+header{
+  position: absolute;
+  width: 100%;
+
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    background-color: white;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: black;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.fr_pic
+{
+    padding-left: 26px;
+}
+.clrff6666{
+  color: #ff6666 !important;
+}
+.navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    position: absolute;
+    width: 100%;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    background-color: transparent;
+ 
+}
+.navbar-brand > img {
+    display: block;
+    width: 262px;
+    margin-top: -15px;
+    margin-left: -18px;
+}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/*section vivez*/
+
+#vivez {
+    position: relative;
+    background: rgba(255,255,255,0.5) url(../img/banner.png);
+    background-size: cover;
+    padding: 300px 0px;
+}
+#vivez h1
+{
+  font-family: 'Champagne_Limousines';
+  color: white;
+  text-align: center;
+  font-size: 64px;
+}
+
+.btn-default {
+    background-color: #ff3333;
+    background-color: :#ff3333;
+    border: none;
+    color: white;
+    width: 186px;
+    padding: 12px;
+    text-transform: uppercase;
+}
+#vivez .form-control
+{
+    width: 300px;
+    height: 47px;
+    border-radius: 1;
+
+}
+/*#vivez .mode
+{
+     position: absolute;
+    top: 529%;
+    right: 35%;
+}
+#vivez .mode2
+{
+  position: absolute;
+    top: 480%;
+    right: 20%;
+    width: 130px;
+   }*/
+
+
+#vivez h2 {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    /* right: -12%; */
+    /* bottom: -43px; */
+    bottom: 0;
+    text-align: center;
+    font-weight: 400;
+    z-index: 9;
+    right: 30%;
+}
+#vivez h3 {
+    position: absolute;
+    /* top: 585%; */
+    bottom: 22px;
+    color: white;
+    font-size: 14px;
+    right: 21%;
+    text-align: center;
+    font-weight: 400;
+    z-index: 9 margin-top: 12px;
+}
+#vivez .fa
+{
+    position: absolute;
+    /* z-index: 9; */
+    right: 25%;
+   top: 557%;
+
+    font-size: 19px;
+
+}
+#vivez span {
+    position: absolute;
+    /* top: 539%; */
+    color: white;
+    font-size: 13px;
+    right: 22%;
+    text-align: center;
+    font-weight: 700;
+    z-index: 9;
+    font-size: 16px;
+    padding-top: 4px;
+
+}
+
+.employ
+{
+padding: 20px;
+}
+.employ2
+{
+padding: 20px;
+}
+.green {
+    position: absolute;
+    bottom: 0;
+    right: 19%;
+    width: 150px;
+}
+.green2 {
+    position: absolute;
+    bottom: 1px;
+    right: 29%;
+}
+
+
+
+
+
+
+
+
+
+
+#pics {
+    padding-top: 42px;
+         box-shadow: 0px 5px 4px -2px #ccc;
+        padding-bottom: 39px;
+}
+#pics h2
+{
+   font-family: 'Champagne_Limousines';
+  text-align: center;
+   font-size: 48px;
+   padding-bottom: 90px;
+}
+#pics h4
+{
+  text-align: center;
+   font-family: 'ChampagneLimousinesBold';
+   font-size: 24px;
+}
+#pics .Red_pics
+{
+padding-bottom: 16px;
+}
+#pics h5
+{
+  text-align: center;
+   font-family: 'ChampagneLimousinesBold';
+   font-size: 16px;
+}
+#pics .btn_orange
+{
+  background-color: #ff3333;
+    background-color: :#ff3333;
+    border: none;
+    color: white;
+    width: 230px;
+    padding: 12px;
+    position: relative;
+      border-radius: 5px;
+      margin-top: 54px;
+    text-transform: uppercase;
+}
+#pics .btn_orange1 {
+    background-color: #ff3333;
+    background-color: :#ff3333;
+    border: none;
+    color: white;
+    width: 236px;
+    z-index: 9;
+    padding: 12px;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+#pics .Round_image {
+    position: absolute;
+    /* float: right; */
+    left: 168%;
+    bottom: -50%;
+}
+
+#pics .Round_image2 {
+    position: absolute;
+    /* float: right; */
+    left: 55%;
+    top: 13px;
+    /* bottom: -8%; */
+}
+
+
+
+
+
+#clock
+{    padding-bottom: 31px;
+  padding-top: 42px;
+        box-shadow: 0px 5px 3px -2px #ccc;
+}
+#clock h1
+{
+  font-size: 48px;
+  font-family: 'Champagne_Limousines';
+  text-align: center;
+      margin-bottom: 34px;
+}
+#clock .star_pic {
+    width: 100%;
+    position: relative;
+    height: 451px;
+}
+#clock .gradi {
+     background: linear-gradient(   #F0F0F0 , transparent);
+    position: absolute;
+    top: 0;
+    width: 270px;
+    height: 100%;
+   
+}
+#clock .block_para {
+    padding: 15px;
+    font-weight: 400;
+    color: white;
+    font-size: 17px;
+    border: 1px solid transparent;
+}
+#demo {
+    text-align: center;
+    font-size: 31px;
+    right: 10%;
+    top: 6%;
+    position: absolute;
+    color: white;
+}
+#clock .bk_lady
+{
+    position: absolute;
+    z-index: 9;
+    top: 65%;
+    right: 15px;
+}
+#clock .ladypic
+{
+      position: relative;
+}
+#clock .julie_pic {
+    position: absolute;
+    border: 3px solid white;
+    bottom: 0;
+    right: 16px;
+    border-radius: 50%;
+}
+#clock .text {
+      border-radius: 50%;
+    background-color: #333333;
+    position: absolute;
+    bottom: 133px;
+    height: 64px;
+    width: 62px;
+    right: 79px;
+    position: absolute;
+}
+#clock .julie_text {
+       position: absolute;
+    color: white;
+    z-index: 9;
+    top: 66%;
+    text-align: center;
+    padding: 11px;
+    right: 73px;
+
+}
+
+#clock h2
+{
+  color: #ff3333;
+}
+
+#clock .righ
+{
+    position: absolute;
+    left: 7%;
+    top: 55%;
+    z-index: 9;}
+#clock .tooth
+{
+  position: absolute;
+    left: 6%;
+    top: 56%;
+    z-index: 9;
+  }
+
+
+
+#clock .Participants
+{font-weight: 600;
+    font-size: 12px;
+}
+#clock .btn_reserver
+{
+  float: left;
+         font-size: 19px;
+  color: white;
+  background-color: #ff3333;
+  text-transform: uppercase;
+  height: 48px;
+     width: 230px;
+  position: relative;
+      margin-top: 41px;
+  border:none;
+}
+#clock .btn_partager
+{
+      font-size: 19px;
+  text-transform: uppercase;
+  background-color: #33cc99;
+  color: white;
+  position: relative;
+      margin-top: 41px;
+    height: 48px;
+  width: 230px;
+  border:none;
+}
+#clock .round2
+{
+    position: absolute;
+    /* float: right; */
+    left: 36%;
+    height: 67px;
+    /* bottom: -12%; */
+    top: 11%;
+}
+#clock .powder_round
+{
+    position: absolute;
+    /* float: right; */
+    left: 5%;
+    height: 67px;
+    /* bottom: -12%; */
+    top: 17%;
+}
+#clock .orange_round
+{
+    position: absolute;
+    /* float: right; */
+    left:34%;
+    height: 45px;
+    z-index: 9;
+    /* bottom: -12%; */
+    top: 59%;
+}
+
+.upper {
+    position: relative;
+    top: -11px;
+}
+
+.fa
+{
+  color: white;
+}
+
+#clock h3 {
+  font-weight: 600;
+    top: -2%;
+    color: white;
+    position: absolute;
+    font-size: 22px;
+    left: 9%;
+}
+#clock h5 {
+  font-weight: 600;
+    top: 49%;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    font-size: 22px;
+    left: 22%;
+
+}
+#pictures
+{
+    padding-top: 23px;
+}
+
+#pictures .pad
+{
+      padding-left: 6px;
+}
+
+#pictures .pad1
+{
+      padding-right: 0px;
+}
+
+#pictures h3
+{
+    margin-top: 0;
+    line-height: 0;
+    font-size: 22px;
+    color: #333333;
+   font-weight: 700;
+}
+
+
+#pictures h2
+{
+   color: #ff3333;
+   font-size: 22px;
+   font-weight: 700;
+}
+
+#pictures h4
+{
+          border: 1px solid #ff3333;
+    width: 41px;
+    height: 22px;
+    background-color: #ff3333;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 18px;
+}
+#pictures .jump
+{  
+  width: 100%;
+    height: 239px;
+}
+#pictures .danceing_girl
+{      height: 627px;
+    width: 100%;
+
+}
+
+
+
+#pictures h5
+{
+ font-weight: 700;
+
+    padding-top: 10px;
+ font-size: 22px;
+ text-align: center;
+ color: #333333;
+}
+#pictures .fa
+{
+    color: white;
+    /* color: blue; */
+    position: absolute;
+    top: -25%;
+    left: 45px;
+    font-size: 38px;
+}
+#pictures .pad2
+{
+       padding-left: 34px;
+}
+
+#pictures p
+{
+ font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 18px;
+        padding-bottom: 27px;
+
+}
+#pictures i {
+    text-align: font-size: 12px;
+    font-weight: 400;
+}
+#pictures span
+{
+  color: #00cc33;
+  font-size: 12px;
+ font-weight: 700 ;
+
+}
+#pictures .jul_pic
+{
+    float: right;
+    padding-top: 8px;
+}
+#pictures h6
+{
+        float: right;
+    position: absolute;
+       right: 41px;
+    font-size: 12px;
+    top: 66px;
+    /* bottom: -46px; */
+    line-height: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#pictures .sky
+{
+    position: relative;
+    width: 100%;
+    height: 246px;
+}
+#pictures .balloon_star
+{   position: absolute;
+    z-index: 99;
+    right: 28px;
+    top: 2%;
+    width: 44px;
+}
+#pictures .balloon {
+   position: absolute;
+    z-index: 99;
+    right: 23px;
+    top: 2%;
+    width: 43px;
+
+}
+/*#pictures .fap
+{
+ color: blue;
+ 
+    position: absolute;
+    top: -25%;
+    left: 45px;
+    font-size: 38px;
+}*/
+#pictures .fap2
+{
+  position: absolute;
+}
+#pictures .fap3
+{
+  position: absolute;
+}
+#pictures .Ju
+{
+      font-weight: 700;
+
+    font-size: 21px;
+    color: #ff3333;
+
+}
+ 
+#pictures .Juin_21
+{
+font-weight: 700;
+    font-size: 21px;
+    line-height: 0px;
+    color: #333333;
+    margin-top: 0px;
+  
+}
+#pictures .orang
+{
+        border: 1px solid #ff3333;
+    width: 48px;
+    height: 25px;
+    background-color: #ff3333;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 18px;
+}
+#pictures  .space
+{
+    padding-left: 34px;
+}
+#pictures .jul_pics
+{
+  float: right;
+    padding-top: 8px;
+     
+}
+#pictures .colors
+{
+  width: 100%;
+padding-left: 5px;
+}
+ .colors_taj
+{
+width: 100%;
+padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#makeup 
+{
+padding-top: 51px;
+}
+#makeup .colors
+{
+  width: 100%;
+padding-left: 5px;
+}
+#makeup .colors_taj
+{
+width: 100%;
+padding-left: 5px;
+}
+
+#makeup .pad1
+{
+padding-right: 0px
+}
+#makeup .pad
+{
+padding-left: 5px;
+}
+#makeup .balloon {
+    position: absolute;
+    z-index: 99;
+    right: 5px;
+    top: 2%;
+    width: 46px;
+}
+#makeup .balloon_star
+{   position: absolute;
+    z-index: 99;
+    right: 28px;
+    top: 4%;
+    width: 47px;
+}
+#makeup .fap {
+    color: white;
+    /* color: blue; */
+    position: absolute;
+    top: -25%;
+    left: 45px;
+    font-size: 38px;
+}
+#makeup .fapp {
+     color: white;
+    /* color: blue; */
+    position: absolute;
+    top: 94%;
+    left: 45px;
+    font-size: 38px;
+}
+
+#makeup  .space
+{
+    padding-left: 35px;
+}
+
+#makeup .Ju
+{
+      font-weight: 700;
+
+    font-size: 21px;
+    color: #ff3333;
+
+}
+ 
+#makeup .Juin_21
+{
+font-weight: 700;
+    font-size: 21px;
+    line-height: 0px;
+    color: #333333;
+    margin-top: 0px;
+  
+}
+#makeup .orang
+{
+        border: 1px solid #ff3333;
+    width: 48px;
+    height: 25px;
+    background-color: #ff3333;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 18px;
+}
+#makeup h5
+{
+ font-weight: 700;
+
+    padding-top: 10px;
+ font-size: 22px;
+ text-align: center;
+ color: #333333;
+}
+
+#makeup p
+{
+ font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 18px;
+        padding-bottom: 18px;
+
+}
+
+#makeup i
+{
+  text-align: 
+  font-size: 12px;
+ font-weight: 700;
+
+}
+#makeup span
+{
+  color: #00cc33;
+  font-size: 12px;
+ font-weight: 700 ;
+
+}
+#makeup  .space2
+{
+    padding-left: 40px;
+}
+#makeup  .jul_pics2
+{
+       float: right;
+    padding-top: 8px;
+    padding-right: 18px;
+    position: relative;
+}
+#makeup h6 {
+    float: right;
+    position: absolute;
+    right: 37px;
+    font-size: 12px;
+    top: 66px;
+    /* bottom: -46px; */
+    line-height: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+#makeup  .jul_pics
+{
+   
+   
+padding-right: 8px;
+    float: right;
+}
+
+
+#makeup .juliee1 {
+     float: right;
+    position: absolute;
+    right: 36px;
+    font-size: 12px;
+    top: 66px;
+  }
+
+
+#makeup .rounding
+{
+position: absolute;
+    right: 21%;
+    top: 377%;
+}
+.btn_voir 
+{
+  border:none;
+    background: #e62f25;
+       width: 280px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 38px;
+    margin-top: 34px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 53px;
+    margin-bottom: 70px;
+}
+.btn_voir:after {
+    content: '';
+    position: absolute;
+    top: -35px; 
+    left: 188px;
+    width: 95px;
+    background: url(../img/round.png);
+    height: 89px;
+    z-index: -9;
+    background-repeat: no-repeat;
+}
+.dur
+{
+      float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#pour
+{
+    box-shadow: -1px -6px 4px -2px #ccc;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background: url(../img/food.png);
+  background-size: cover;
+  color: #999999;
+}
+#pour .yost
+{
+ 
+    position: absolute;
+    left: 0px;
+    top: -20px;
+  
+}
+#pour h2
+{
+    font-family: 'Champagne_Limousines';
+    font-size: 63px;
+    color: white; 
+       padding-top: 238px;
+    text-align: center;
+}
+#pour .play
+
+{
+padding-top: 20px;
+}
+
+#pour .fah
+{
+    position: absolute;
+    right: 49%;
+    font-size: 32px;
+    bottom: 83px;
+}
+/*.link_box {
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+   
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(51, 51, 102, 0.5);
+    text-align: center;
+    display: block;
+    padding: 125px 0;
+    opacity: 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+  }
+  .overlay a{
+    font-size: 28px;
+    color: #fff;
+  }
+  .link_box:hover .overlay{
+    opacity: 1;
+  }
+
+
+*/
+
+/** Donna Galletta | LIGHTBOX MARKUP **/
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
+}
+
+/** videoModal **/
+#videoModal {
+  border-radius: 0;
+  width: 870px;
+  margin:auto;}
+  #videoModal .modal-header {
+    background: #000;
+    border: 0;
+    color: #fff;
+    position: relative;
+      height:35px; }
+    #videoModal .modal-header h3 {
+      font-size: 18px;
+      line-height: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:5px;}
+  #videoModal .modal-body {
+    height: 489px;
+    padding: 0;
+    max-height: none;
+    overflow: hidden; }
+  #videoModal .modal-footer:empty {
+    display: none !important; }
+  #videoModal .close {
+    background: #DB00B8;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    text-shadow: none;
+    top: 0;
+    width: 38px; 
+  }
+
+
+
+
+
+
+
+
+
+
+#notre
+{
+padding-top: 20px;
+}
+
+#notre h2
+{
+  font-size: 48px;
+  text-align: center;
+  font-family: 'Champagne_Limousines';
+}
+
+#notre .home
+{
+  padding-top: 60px;
+}
+#notre .round2 {
+    position: absolute;
+    /* float: right; */
+    left: 57%;
+    height: 67px;
+    /* bottom: -12%; */
+    top: 6%;
+}
+#notre .book {
+    position: absolute;
+    left: 9%;
+    top: 35%;
+}
+#notre .mind {
+    position: absolute;
+    left: 6%;
+    top: 35%;
+}
+#notre .heart {
+    position: absolute;
+    left: 6%;
+    top: 35%;
+}
+#notre .btn_reserver
+{    margin-bottom: 39px;
+    font-size: 14px;
+    color: white;
+    background-color: #ff3333;
+    text-transform: uppercase;
+    height: 48px;
+      padding-left: 37px;
+        width: 284px;
+    position: relative;
+    margin-top: 41px;
+    border: none;
+}
+#notre .le_lexi
+{     margin-bottom: 39px;
+    font-size: 14px;
+    color: white;
+    background-color: #ff3333;
+    text-transform: uppercase;
+    height: 48px;
+    padding-left: 12px;
+    width: 265px;
+    position: relative;
+    margin-top: 41px;
+    border: none;
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+#photo
+{    box-shadow: 0px 5px 3px -2px #ccc;
+background: url(../img/gg.png);
+    padding-top: 43px;
+    padding-bottom: 46px;
+  
+}
+#photo .boy_girl
+{
+      width: 100%;
+        position: relative;
+}
+
+#photo .fcbook_pic
+{   width: 100%;
+  
+    position: relative;
+}
+ 
+#photo .insta_pic
+{   width: 100%;
+   
+      position: relative;
+}
+
+#photo .twit_pic
+{   width: 100%;
+  
+      position: relative;
+}
+#photo p {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    top: 45%;
+    padding-right: 13px;
+    position: absolute;
+    padding-left: 10px;
+}
+#photo h4
+{   
+   font-weight: 700;
+    /* float: left; */
+    position: absolute;
+    top: 30%;
+    padding-left: 10px;
+    color: white;
+}
+#photo h3
+{ 
+    font-weight: 700;
+    font-family: 'ChampagneLimousinesBold';
+    position: absolute;
+    top: 2%;
+    left: 23%;
+    padding-left: 10px;
+    color: white; 
+    font-size: 24px;
+    text-transform: capitalize; 
+ }
+ #photo h5
+{ 
+   font-size: 24px;
+    font-weight: 700;
+    font-family: 'ChampagneLimousinesBold';
+    position: absolute;
+    top: 5%;
+    left: 27%;
+    padding-left: 10px;
+    color: white; 
+    text-transform: capitalize; 
+ }
+
+#photo h2 {
+    font-weight: 700;
+    font-family: 'ChampagneLimousinesBold';
+    position: absolute;
+    top: 2%;
+    left: 9%;
+    padding-left: 10px;
+    color: white;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+#photo .cloud_pic
+{
+
+    position: absolute;
+    top: 34%;
+    left: 42px;
+}
+
+
+
+
+
+
+#logos
+{   padding-top: 48px;
+    padding-bottom: 52px;
+}
+#logos .part
+{
+    padding-top: 12px;
+}
+#logos .man
+{
+    padding-top: 5px;
+}
+
+#logos .apple
+{
+
+}
+
+#logos .subway
+{
+    padding-top: 9px;
+}
+
+#logos .af
+{
+
+}
+
+#logos .aub
+{
+
+}
+
+
+
+
+
+footer
+{
+   background: url(../img/fff.png);
+       padding-bottom: 41px;
+   position: relative;
+}
+footer h3
+{
+    font-family: 'Champagne_Limousines';
+    color: white;
+    font-size: 24px;
+    padding-top: 45px;
+    padding-left: 38px;
+}
+footer ul
+{
+   list-style-type: none;
+}
+footer ul>li
+{
+      
+    font-weight: 400;
+    color: white;
+    font-size: 13px;
+
+}
+footer .bb_foot
+{
+    padding-top: 70px;
+  font-family: 'ChampagneLimousinesBold';
+  font-weight: 700;
+}
+footer .picss
+{
+padding-right: 10px;
+    padding-bottom: 13px;
+}
+footer .big_font
+{font-size: 21px;
+  font-size: 20px;
+}
+footer .visa_pic
+{
+    width: 135px;
+    padding-left: 29px;
+}
+
+footer .app
+{
+   position: absolute;
+    top: -20%;
+    right: 37%;
+
+}
+
+
+
+
+
+
+#foot
+{
+
+}
+#foot .pp
+{
+padding-top: 30px;
+}
+
+#foot p
+{    font-weight: 400;
+    font-size: 12px;
+  font-weight: 400;
+}
+#foot .piixx {
+    position: absolute;
+    left: -21%;
+    top: -359%;
+}#foot .piixx {
+    position: absolute;
+    left: -21%;
+    top: -359%;
+}#foot .piixx {
+    position: absolute;
+    left: -21%;
+    top: -359%;
+}#foot .piixx {
+    position: absolute;
+    left: -21%;
+    top: -359%;
+}
+#foot .pic
+{    top: -81%;
+        position: absolute;
+    left: 0%;
+  
+        margin-bottom: 20px;
+}
+#foot .sui
+{
+  float: right;
+}
+#foot .phot
+{
+    float: right;
+    position: absolute;
+    left: 41%;
+    top: -131%;
+}
+#foot .social_icons
+{
+  padding-left: 10px;
+}
+
+.reserver
+{
+   background-color: #ff3333;
+  text-transform: uppercase;
+  height: 48px;
+     width: 230px;
+  position: relative;
+  font-size: 19px;
+  color: white;
+      margin-top: 41px;
+  border:none;
+}
+#clock .righ {
+    position: absolute;
+    left: 18%;
+    top: 55%;
+    z-index: 9;
+}
+#clock .round2 {
+    position: absolute;
+    /* float: right; */
+    left: 61%;
+    height: 67px;
+    /* bottom: -12%; */
+    top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------*/
+
+@media (max-width: 1199px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) 
+{
+
+  #pics h4 {
+    text-align: center;
+    font-family: 'ChampagneLimousinesBold';
+    font-size: 31px;
+}
+  #pictures i {
+    text-align: font-size: 12px;
+    font-weight: 400;
+}
+#notre .book {
+    position: absolute;
+    left: 2%;
+    top: 11%;
+}
+#clock .block_para {
+    padding: 15px;
+    font-weight: 400;
+    color: white;
+    font-size: 17px;
+    border: 1px solid transparent;
+}
+#pictures .sky {
+    position: relative;
+    width: 100%;
+    /* height: 164px; */
+}
+.navbar-nav {
+    /* float: left; */
+    /* margin: 0; */
+    padding-left: 112px;
+    padding-top: 0px;
+}
+#clock .bk_lady {
+    position: absolute;
+    z-index: 9;
+    top: 43%;
+    right: 15px;
+}
+#clock .bk_lady {
+    position: absolute;
+    z-index: 9;
+    width: 140px;
+    top: 46%;
+    right: 15px;
+}
+#clock .julie_text {
+    position: absolute;
+    color: white;
+    z-index: 9;
+    top: 47%;
+    text-align: center;
+    padding: 11px;
+    right: 88px;
+}
+#clock .julie_text {
+    position: absolute;
+    color: white;
+    z-index: 9;
+    top: 47%;
+    text-align: center;
+    padding: 11px;
+    right: 87px;
+}
+#pictures .fa {
+    color: white;
+    /* color: blue; */
+    position: absolute;
+    top: -22%;
+    left: 45px;
+    font-size: 38px;
+}
+#pour h2 {
+    font-family: 'Champagne_Limousines';
+    font-size: 38px;
+    color: white;
+    padding-top: 238px;
+    text-align: center;
+}
+
+#photo .cloud_pic {
+    position: absolute;
+    top: 34%;
+    width: 184px;
+    left: 42px;
+}
+#photo .insta_pic {
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+}
+#photo .twit_pic {
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+}
+#photo h5 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'ChampagneLimousinesBold';
+    position: absolute;
+    top: 12%;
+    left: 27%;
+    padding-left: 10px;
+    color: white;
+    text-transform: capitalize;
+}
+#photo h3 {
+    font-weight: 700;
+    font-family: 'ChampagneLimousinesBold';
+    position: absolute;
+    top: 5%;
+    left: 23%;
+    padding-left: 10px;
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+#photo p {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    top: 45%;
+    padding-right: 27px;
+    position: absolute;
+    padding-left: 10px;
+}
+#photo h2 {
+    font-weight: 700;
+    font-family: 'ChampagneLimousinesBold';
+    position: absolute;
+    top: 6%;
+    left: 11%;
+    padding-left: 10px;
+    color: white;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+#foot .pic {
+    top: -199%;
+    position: absolute;
+    left: 0%;
+    z-index: -99;
+    margin-bottom: 20px;
+}
+#foot p {
+    font-weight: 400;
+    font-size: 14px;
+    font-weight: 400;
+}
+#clock h2 {
+    color: #ff3333;
+    text-align: center;
+}
+#clock h4 {
+    font-size: 18px;
+    text-align: center;
+}
+#clock .Participants {
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+}
+#clock .btn_reserver {
+    float: right;
+    font-size: 19px;
+    color: white;
+    background-color: #ff3333;
+    text-transform: uppercase;
+    height: 48px;
+    width: 230px;
+    position: relative;
+    margin-top: 41px;
+    border: none;
+}
+#clock .btn_partager {
+    font-size: 19px;
+    text-transform: uppercase;
+    background-color: #33cc99;
+    color: white;
+    position: relative;
+    margin-top: 41px;
+    height: 48px;
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+}
+#clock .round2 {
+    position: absolute;
+    /* float: right; */
+    left: 76%;
+    height: 67px;
+    /* bottom: -12%; */
+    top: 2%;
+}
+#clock .orange_round {
+    position: absolute;
+    /* float: right; */
+    left: 72%;
+    height: 45px;
+    z-index: 9;
+    /* bottom: -12%; */
+    top: 59%;
+}
+#clock .powder_round {
+    position: absolute;
+    /* float: right; */
+    left: 20%;
+    height: 67px;
+    /* bottom: -12%; */
+    top: 11%;
+}
+#clock .powder_round {
+    position: absolute;
+    /* float: right; */
+    left: 35%;
+    height: 67px;
+    /* bottom: -12%; */
+    top: 17%;
+}
+#clock .tooth {
+    position: absolute;
+    left: 23%;
+    top: 56%;
+    z-index: 9;
+}
+#clock .righ {
+    position: absolute;
+    left: 37%;
+    top: 55%;
+    z-index: 9;
+}
+
+#clock .gradi {
+    background: linear-gradient( #F0F0F0 , transparent);
+    position: absolute;
+    top: 0;
+    width: 270px;
+    height: 70%;
+}
+#pics .btn_orange1 {
+    background-color: #ff3333;
+    background-color: :#ff3333;
+    border: none;
+    color: white;
+    width: 236px;
+    padding: 12px;
+    position: relative;
+    margin-top: 50px;
+    /* margin-left: 127px; */
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+#clock h3 {
+    font-weight: 600;
+    top: -2%;
+    color: white;
+    position: absolute;
+    font-size: 22px;
+    left: 6%;
+}
+#clock h5 {
+    font-weight: 600;
+    top: 49%;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    font-size: 22px;
+    left: 14%;
+}
+
+#pics .Round_image {
+    position: absolute;
+    /* float: right; */
+    left: 208%;
+    bottom: -50%;
+}
+#pics .Round_image2 {
+    position: absolute;
+    /* float: right; */
+    left: -54%;
+    bottom: -54%;
+}
+#pics .Round_image {
+    position: absolute;
+    /* float: right; */
+    left: 192%;
+    bottom: -50%;
+}
+#vivez .mode {
+    position: absolute;
+    top: 281%;
+    right: 26%;
+}
+#vivez .mode2 {
+    position: absolute;
+    top: 261%;
+    right: 6%;
+    width: 128px;
+}
+#vivez h3 {
+    position: absolute;
+    top: 301%;
+    color: white;
+    font-size: 14px;
+    right: 9%;
+    text-align: center;
+    font-weight: 400;
+    z-index: 9 margin-top: 12px;
+}
+#vivez h2 {
+    position: absolute;
+    top: 309%;
+    /* background-color: black; */
+    color: white;
+    font-size: 19px;
+    right: 28%;
+    text-align: center;
+    font-weight: 400;
+    z-index: 9;
+}
+#vivez .form-control {
+    width: 239px;
+    height: 47px;
+    border-radius: 1;
+}
+.btn-default {
+    background-color: #ff3333;
+    background-color: :#ff3333;
+    border: none;
+    color: white;
+    width: 186px;
+    padding: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reserver
+{
+   background-color: #ff3333;
+  text-transform: uppercase;
+  height: 48px;
+     width: 230px;
+  position: relative;
+  font-size: 19px;
+  color: white;
+      margin-top: 41px;
+  border:none;
+}
+#clock .righ {
+    position: absolute;
+    left: 24%;
+    top: 55%;
+    z-index: 9;
+}
+#clock .round2 {
+    position: absolute;
+    /* float: right; */
+    left: 61%;
+    height: 67px;
+    /* bottom: -12%; */
+    top: 2%;
+}
+#notre .round2 {
+    position: absolute;
+    /* float: right; */
+    left: 27%;
+    height: 67px;
+    /* bottom: -12%; */
+    top: 6%;
+}
+#notre .le_lexi {
+    margin-bottom: 39px;
+    font-size: 13px;
+    color: white;
+    background-color: #ff3333;
+    text-transform: uppercase;
+    height: 48px;
+    padding-left: 27px;
+    width: 202px;
+    position: relative;
+    margin-top: 41px;
+    border: none;
+}
+#notre .btn_reserver {
+    margin-bottom: 39px;
+    font-size: 13px;
+    color: white;
+    background-color: #ff3333;
+    text-transform: uppercase;
+    height: 48px;
+    padding-left: 18px;
+    width: 197px;
+    position: relative;
+    margin-top: 41px;
+    border: none;
+}
+#notre .mind {
+    position: absolute;
+    left: 4%;
+    top: 8%;
+}
+#notre .heart {
+    position: absolute;
+    left: 1%;
+    top: 16%;
+}
+#pictures .Ju {
+    font-weight: 700;
+    font-size: 15px;
+    color: #ff3333;
+}
+
+#pictures .Juin_21 {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 0px;
+    color: #333333;
+    margin-top: 0px;
+}
+#pictures .orang {
+    border: 1px solid #ff3333;
+    width: 42px;
+    height: 25px;
+    background-color: #ff3333;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 18px;
+}
+.navbar-brand > img {
+    display: block;
+    width: 189px;
+    margin-top: -15px;
+    margin-left: -18px;
+}
+.fr_pic {
+    padding-left: 14px;
+    width: 93px;
+}
+#foot .piixx {
+    position: absolute;
+    left: -39%;
+    /* top: -122%; */
+}
+#foot .pp {
+    padding-top: 45px;
+}
+#vivez h1 {
+    font-family: 'Champagne_Limousines';
+    color: white;
+    text-align: center;
+    font-size: 44px;
+}
+#pictures .pad {
+    padding-left: 15px;
+}
+#pictures .pad1 {
+    padding-right: 15px;
+}
+#demo {
+    text-align: center;
+    font-size: 31px;
+    right: 10%;
+    top: 6%;
+    position: absolute;
+    color: white;
+}
+#pictures p {
+    font-weight: 700;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 1px;
+    padding-bottom: 27px;
+}
+
+#pictures h6 {
+    float: right;
+    position: absolute;
+    right: 41px;
+    font-size: 16px;
+    top: 66px;
+    /* bottom: -46px; */
+    line-height: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+footer ul>li {
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+}
+.btn_voir {
+    border: none;
+    background: #e62f25;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 38px;
+    margin-top: 34px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 53px;
+    margin-bottom: 70px;
+}
+
+
+
+.employ
+{
+
+}
+.employ2
+{
+
+}
+.green {
+    position: absolute;
+    bottom: 0;
+    right: 9%;
+    width: 150px;
+}
+.green2 {
+    position: absolute;
+    bottom: 1px;
+    right: 29%;
+}
+#vivez h2 {
+    position: absolute;
+    font-size: 20px;
+    /* right: -12%; */
+    /* bottom: -43px; */
+    /* bottom: 28px; */
+    top: 91%;
+    text-align: center;
+    font-weight: 400;
+    z-index: 9;
+    right: 31%;
+}
+#vivez h3 {
+    position: absolute;
+    font-size: 17px;
+    /* right: -12%; */
+    /* bottom: -43px; */
+    /* bottom: 28px; */
+    top: 90%;
+    text-align: center;
+    font-weight: 400;
+    z-index: 9;
+    right: 9%;
+}
+#pics h4 {
+    text-align: center;
+    font-family: 'ChampagneLimousinesBold';
+    font-size: 24px;
+}
+.green {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    width: 150px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+#pictures i {
+  
+    font-weight: 400;
+}
+#vivez h1 {
+    font-family: 'Champagne_Limousines';
+    color: white;
+    margin-bottom: 28px;
+    text-align: center;
+    font-size: 29px;
+}
+#vivez .form-control {
+    width: 100%;
+    height: 47px;
+    border-radius: 1;
+}
+.form-group {
+    margin-bottom: 15px;
+    margin-left: -14px;
+}
+#pics h2 {
+    font-family: 'Champagne_Limousines';
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 48px;
+}
+#pics .Red_pics {
+    padding-bottom: 10px;
+ 
+}
+
+#pics h4 {
+    text-align: center;
+    font-family: 'ChampagneLimousinesBold';
+    font-size: 13px;
+}
+
+#pics h5 {
+    text-align: center;
+    font-family: 'ChampagneLimousinesBold';
+    font-size: 12px;
+}
+#vivez .form-control {
+    width: 100%;
+    height: 47px;
+    border-radius: 1;
+}
+#notre .book {
+    position: absolute;
+    left: 3%;
+    top: 8%;
+}
+
+
+#vivez h2 {
+    position: absolute;
+    top: 182%;
+    color: white;
+    font-size: 17px;
+    right: 42%;
+    text-align: center;
+    font-weight: 400;
+    z-index: 9;
+}
+#vivez h3 {
+    position: absolute;
+    top: 178%;
+    color: white;
+    font-size: 12px;
+    right: 6%;
+    text-align: center;
+    font-weight: 400;
+    z-index: 9 margin-top: 12px;
+}
+#clock .gradi {
+    background: linear-gradient( #F0F0F0 , transparent);
+    position: absolute;
+    top: 0;
+    width: 216px;
+    height: 57%;
+}
+#demo {
+    text-align: center;
+    font-size: 23px;
+    right: 9%;
+    top: 6%;
+    position: absolute;
+    color: white;
+}
+
+#pics .Round_image2 {
+    position: absolute;
+    /* float: right; */
+    left: -2%;
+    bottom: -117%;
+}
+#pics .Round_image {
+    position: absolute;
+    float: right;
+    left: 21%;
+    bottom: -246%;
+}
+.pp {
+  padding-left: 58px;
+}
+.upper {
+    position: relative;
+    top: -8px;
+    width: 102px;
+}
+.upper {
+    position: relative;
+    top: -8px;
+    width: 102px;
+}
+#clock h5 {
+    font-weight: 600;
+    top: 46%;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    font-size: 17px;
+    left: 20%;
+}
+#clock .bk_lady {
+    position: absolute;
+    z-index: 9;
+    top: 48%;
+    width: 79px;
+    right: 15px;
+}
+#clock .julie_text {
+    position: absolute;
+    color: white;
+    z-index: 9;
+    top: 48%;
+    font-size: 9px;
+    text-align: center;
+    padding: 11px;
+    right: 51px;
+}
+#clock h2 {
+    color: #ff3333;
+    text-align: center;
+}
+#clock h4
+{
+      text-align: center;
+}
+#clock .Participants {
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+}
+
+#clock .btn_reserver {
+   
+    font-size: 19px;
+    color: white;
+ background-color: #ff3333;
+    text-transform: uppercase;
+    height: 48px;
+    width: 230px;
+    position: relative;
+    margin-top: 41px;
+    border: none;
+}
+#clock .orange_round {
+    position: absolute;
+    /* float: right; */
+    left: 75%;
+    height: 45px;
+    z-index: 9;
+    /* bottom: -12%; */
+    top: 59%;
+}
+#clock h3 {
+    font-weight: 600;
+    top: -6%;
+    color: white;
+    position: absolute;
+    font-size: 15px;
+    left: 9%;
+}
+#pictures .pad2 {
+    padding-left: 24px;
+}
+#pictures h5 {
+    font-weight: 700;
+    padding-top: 10px;
+    font-size: 17px;
+    text-align: center;
+    color: #333333;
+}
+#pictures p {
+    font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 4px;
+    padding-bottom: 1px;
+}
+#pictures .pad1 {
+    padding-right: 15px;
+}
+#pictures .fa {
+    color: white;
+    /* color: blue; */
+    position: absolute;
+    top: -21%;
+    left: 45px;
+    font-size: 38px;
+}
+#pictures .Ju {
+    font-weight: 700;
+    font-size: 21px;
+    text-align: center;
+    color: #ff3333;
+}
+#pictures .Juin_21 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 0px;
+    color: #333333;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#pics .Red_pics {
+    padding-bottom: 10px;
+    height: 110px;
+}
+#pics .eye {
+   
+    height: 110px;
+}
+ .plane
+{
+  height: 110px;
+}
+ .mobile 
+{
+  height: 110px;
+}
+#photo p {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    top: 45%;
+    padding-right: 13px;
+    position: absolute;
+    padding-left: 10px;
+}
+#pictures .orang {
+    border: 1px solid #ff3333;
+    width: 48px;
+    height: 25px;
+    background-color: #ff3333;
+    color: white;
+    display: block;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pictures h2 {
+    color: #ff3333;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+#pictures h3 {
+    margin-top: 0;
+    line-height: 0;
+    font-size: 22px;
+    text-align: center;
+    color: #333333;
+    font-weight: 700;
+}
+#pictures h4 {
+    border: 1px solid #ff3333;
+    width: 41px;
+    height: 22px;
+    background-color: #ff3333;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#pour .play {
+    padding-top: 14px;
+    width: 80px;
+}
+#notre h2 {
+    font-size: 34px;
+    text-align: center;
+    font-family: 'Champagne_Limousines';
+}
+#notre .btn_reserver {
+    font-size: 15px;
+    color: white;
+    background-color: #ff3333;
+    text-transform: uppercase;
+    height: 48px;
+    /* width: 208px; */
+    position: relative;
+    margin-top: 41px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#photo h3 {
+    font-weight: 700;
+    font-family: 'ChampagneLimousinesBold';
+    position: absolute;
+    top: 7%;
+    left: 23%;
+    padding-left: 10px;
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+#photo h2 {
+    font-weight: 700;
+    font-family: 'ChampagneLimousinesBold';
+    position: absolute;
+    top: 5%;
+    left: 11%;
+    padding-left: 10px;
+    color: white;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+#photo p {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    top: 45%;
+    padding-right: 13px;
+    position: absolute;
+    padding-left: 10px;
+}
+#photo h5 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'ChampagneLimousinesBold';
+    position: absolute;
+    top: 9%;
+    left: 27%;
+    padding-left: 10px;
+    color: white;
+    text-transform: capitalize;
+}
+#logos .apple {
+    width: 69px;
+    padding-top: 28px;
+    /* float: left; */
+}
+#logos .subway {
+    padding-top: 47px;
+    padding-bottom: 33px;
+}
+footer .app {
+    position: absolute;
+    top: -237%;
+    right: 37%;
+}
+#foot .pic {
+    top: -293%;
+    position: absolute;
+    left: 29%;
+    margin-bottom: 20px;
+}
+#vivez .mode {
+    position: absolute;
+    top: 169%;
+    width: 145px;
+    right: 37%;
+}
+
+#vivez .mode2 {
+    position: absolute;
+    top: 166%;
+    right: 0%;
+    width: 116px;
+}
+#pics .Round_image2 {
+    position: absolute;
+    /* float: right; */
+    left: 67%;
+    /* right: 12%; */
+    bottom: -75%;
+}
+.btn-default {
+    background-color: #ff3333;
+    background-color: :#ff3333;
+    border: none;
+    color: white;
+    width: 186px;
+    display: block;
+    padding: 12px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paa
+{
+      padding-left: 27px;
+}
+.navbar-brand > img {
+    display: block;
+    width: 136px;
+    margin-top: -15px;
+    margin-left: -30px;
+}
+
+.navbar-nav {
+    /* float: left; */
+    margin: 0;
+     padding-left: 0px; 
+    /* padding-top: 12px; */
+}
+.fr_pic {
+    padding-left: 0px;
+    width: 72px;
+    padding-top: 20px;
+}
+#foot .phot {
+    float: right;
+    position: absolute;
+    left: 68%;
+    top: -428%;
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #333;
+}
+
+#pictures .jul_pics {
+    float: none;
+    padding-top: 0px;
+    /* padding-right: 138px; */
+    margin: 0 auto;
+}
+.spc {
+    padding-top: 1px;
+}
+#foot .sui {
+    float: none;
+}
+#foot .pic {
+    top: -422%;
+    position: absolute;
+    left: -22%;
+    margin-bottom: 20px;
+}
+
+#notre .book {
+    position: absolute;
+    left: 3%;
+    top: 8%;
+}
+#pictures h6 {
+    float: right;
+    position: absolute;
+    right: 45%;
+    font-size: 12px;
+    top: 66px;
+    /* bottom: -46px; */
+    line-height: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.colors_taj {
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 59px;
+}
+
+#pictures .colors {
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 58px;
+}
+#pictures .balloon {
+    position: absolute;
+    z-index: 99;
+    right: 28px;
+    top: 7%;
+    width: 43px;
+}
+
+#pictures .balloon {
+    position: absolute;
+    z-index: 99;
+    right: 28px;
+    top: 11%;
+    width: 43px;
+}
+#pictures .balloon_star {
+    position: absolute;
+    z-index: 99;
+    right: 33px;
+    top: 12%;
+    width: 44px;
+}
+#pictures .danceing_girl {
+    height: 627px;
+    width: 100%;
+    padding-top: 62px;
+}
+#pictures .sky {
+    position: relative;
+    width: 100%;
+    padding-top: 45px;
+    height: 246px;
+}
+#pictures h6 {
+    float: none;
+    position: relative;
+    right: auto;
+    font-size: 12px;
+    top: auto;
+    /* bottom: -46px; */
+    line-height: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+#pictures .jul_pic {
+    /* float: right; */
+    padding-left: 168px;
+    padding-top: 0px;
+}
+
+#pics .btn_orange1 {
+    background-color: #ff3333;
+    background-color: :#ff3333;
+    border: none;
+    color: white;
+    width: 236px;
+    padding: 12px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.subway
+{
+      padding-top: 20px;
+}
+
+.employ
+{
+
+}
+.employ2
+{
+
+}
+.green {
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    width: 150px;
+}
+.green2 {
+    position: absolute;
+    bottom: 1px;
+    right: 53%;
+}
+.green2 {
+    position: absolute;
+    bottom: 1px;
+    right: 53%;
+}
+#vivez h2 {
+    position: absolute;
+    font-size: 20px;
+    /* right: -12%; */
+    /* bottom: -43px; */
+    /* bottom: 28px; */
+    top: 88%;
+    text-align: center;
+    font-weight: 400;
+    z-index: 9;
+    right: 56%;
+}
+#vivez h3 {
+    position: absolute;
+    font-size: 16px;
+    /* right: -12%; */
+    /* bottom: -43px; */
+    /* bottom: 28px; */
+    top: 86%;
+    text-align: center;
+    font-weight: 400;
+    z-index: 9;
+    right: 9%;
+}
+#vivez {
+    position: relative;
+    background: rgba(255,255,255,0.5) url(../img/banner.png);
+    background-size: cover;
+    padding: 78px 0px;
+}
+#clock .block_para {
+    padding: 15px;
+    font-weight: 400;
+    color: white;
+    font-size: 17px;
+    border: 1px solid transparent;
+}
+#notre .le_lexi {
+    margin-bottom: 39px;
+    font-size: 13px;
+    color: white;
+    background-color: #ff3333;
+    text-transform: uppercase;
+    height: 48px;
+    padding-left: 27px;
+    width: 202px;
+    position: relative;
+    margin-top: 41px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#notre .round2 {
+    position: absolute;
+    /* float: right; */
+    left: 56%;
+    height: 67px;
+    /* bottom: -12%; */
+    top: 6%;
+}
+
+.reserver
+{
+   background-color: #ff3333;
+  text-transform: uppercase;
+  height: 48px;
+     width: 230px;
+  position: relative;
+  font-size: 19px;
+  color: white;
+      margin-top: 41px;
+  border:none;
+}
+#clock .righ {
+    position: absolute;
+    left: 24%;
+    top: 55%;
+    z-index: 9;
+}
+#clock .round2 {
+    position: absolute;
+    /* float: right; */
+    left: 61%;
+    height: 67px;
+    /* bottom: -12%; */
+    top: 2%;
+}
+#clock h1 {
+    font-size: 33px;
+    font-family: 'Champagne_Limousines';
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+}
